@@ -1,9 +1,8 @@
 # Q&A Chatbot
 #from langchain.llms import OpenAI
 
-# from dotenv import load_dotenv
-
-# load_dotenv()  # take environment variables from .env.
+from dotenv import load_dotenv
+load_dotenv()  # take environment variables from .env.
 
 import streamlit as st
 import os
