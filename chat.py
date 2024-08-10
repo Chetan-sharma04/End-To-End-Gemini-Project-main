@@ -15,7 +15,6 @@ import google.generativeai as genai
 from IPython.display import display
 from IPython.display import Markdown
 
-GOOGLE_API_KEY = "AIzaSyBRSxdg5bboSg_4a6KYm5g2XhklOEGnx0o"
 os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
